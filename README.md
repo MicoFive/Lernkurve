@@ -1,0 +1,2 @@
+# Lernkurve
+Lernen von nodejs
