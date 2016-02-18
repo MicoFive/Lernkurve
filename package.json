@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "cd public; webpack --progress --colors --watch"
+    "webpack": "cd public; webpack-dev-server --progress --colors"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
